@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// Класс Baseline
 class Baseline {
     private String title;
     protected String content;
@@ -22,7 +21,7 @@ class Baseline {
     }
 }
 
-// Класс Behaviour
+
 class Behaviour extends Baseline {
     private String behaviorType;
     protected int analysisResult;
@@ -44,7 +43,7 @@ class Behaviour extends Baseline {
     }
 }
 
-// Класс Blog
+
 class Blog extends Behaviour {
     private String blogType;
     public String url;
@@ -67,7 +66,6 @@ class Blog extends Behaviour {
     }
 }
 
-// Класс Main
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
